@@ -180,7 +180,7 @@ export default function Home() {
         <style jsx global>
           {`
       body {
-          background: #2d3748; 
+          background:url('public/bg4.png') ; 
        }
    `}
         </style>
@@ -192,7 +192,7 @@ export default function Home() {
               </Box>
               {loading ? (<></>) : (
                 <Flex justifyContent="flex-end" marginLeft="auto">
-                  <Box background={"teal.100"} borderRadius={"5px"} minWidth={"50px"} minHeight={"50px"} p={2} >
+                  <Box background={"teal.100"} borderRadius={"10px"} minWidth={"50px"} minHeight={"50px"} p={2} >
                     <VStack >
                       <Text fontSize={"sm"}>Available NFTs:</Text>
                       <Text fontWeight={"semibold"}>{Number(candyMachine?.data.itemsAvailable) - Number(candyMachine?.itemsRedeemed)}/{Number(candyMachine?.data.itemsAvailable)}</Text>
