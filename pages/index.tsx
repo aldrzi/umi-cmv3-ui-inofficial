@@ -180,11 +180,12 @@ export default function Home() {
         <style jsx global>
           {`
       body {
-          background:url('public/bg4.png') ; 
+        background: url('/bg4.png') center center no-repeat;
+        background-size: cover;
        }
    `}
         </style>
-        <Card>
+        <Card background={"orange.100"} borderRadius={"10px"}>
           <CardHeader>
             <Flex minWidth='max-content' alignItems='center' gap='2'>
               <Box>
@@ -192,7 +193,7 @@ export default function Home() {
               </Box>
               {loading ? (<></>) : (
                 <Flex justifyContent="flex-end" marginLeft="auto">
-                  <Box background={"teal.100"} borderRadius={"10px"} minWidth={"50px"} minHeight={"50px"} p={2} >
+                  <Box background={"orange.50"} borderRadius={"10px"} minWidth={"50px"} minHeight={"50px"} p={2} >
                     <VStack >
                       <Text fontSize={"sm"}>Available NFTs:</Text>
                       <Text fontWeight={"semibold"}>{Number(candyMachine?.data.itemsAvailable) - Number(candyMachine?.itemsRedeemed)}/{Number(candyMachine?.data.itemsAvailable)}</Text>
