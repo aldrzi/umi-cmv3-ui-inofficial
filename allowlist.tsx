@@ -7,11 +7,10 @@ export const allowLists = new Map<string, Array<string>> ([
       "GjwcWFQYzemBtpUoN5fMAP2FZviTtMRWCmrppGuTthJS",
       "AT8nPwujHAD14cLojTcB1qdBzA1VXnT6LVGuUd6Y73Cy"
     ]],
-    ["OG",
+    ["TEAM",
     [
-      "Ur1CbWSGsXCdedknRbJsEk7urwAvu1uddmQv51nAnXB",
-      "GjwcWFQYzemBtpUoN5fMAP2FZviTtMRWCmrppGuTthJS",
-      "AT8nPwujHAD14cLojTcB1qdBzA1VXnT6LVGuUd6Y73Cy",
+      "FDfedZH23Wk2RNsGPwE5u4f13UWmL7dwtRSgTcS8JFAt",
+      "5Fzb7TKrXTwekFjd3KnaoJcWrofESiR8WtPDkt8NKKYU",
     ]],
     ["default",
     [
