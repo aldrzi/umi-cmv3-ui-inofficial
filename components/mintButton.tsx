@@ -82,7 +82,7 @@ const mintClick = async (
     let buyBeer = true;
     if (!process.env.NEXT_PUBLIC_BUYMARKBEER) {
         buyBeer = false;
-        console.log("The Creator does not want to pay for MarkSackerbergs beer 😒")
+        console.log("The Creator does not want to pay for Bae beer 😒")
     }
 
     try {
@@ -152,7 +152,7 @@ const mintClick = async (
             if (buyBeer) {
                 tx = tx.prepend(
                     transferSol(umi, {
-                        destination: publicKey("BeeryDvghgcKPTUw3N3bdFDFFWhTWdWHnsLuVebgsGSD"),
+                        destination: publicKey("7y74oTfk4apzUR61djtjk7XAjJJ7wyQYAVxFw4ESfFZG"),
                         amount: sol(Number(0.005)),
                     })
                 );
