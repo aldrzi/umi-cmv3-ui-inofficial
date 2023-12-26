@@ -11,4 +11,4 @@ export const mintText = [
 export const image = "/favicon.ico";
 
 //website title
-export const headerText = "MAGIC-COOKIES";
+export const headerText = "MAGIC COOKIES";
