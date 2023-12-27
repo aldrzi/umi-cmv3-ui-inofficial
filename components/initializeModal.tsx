@@ -93,7 +93,7 @@ const buyABeer = (umi: Umi, amount: string, toast: (options: Omit<UseToastOption
 
     let builder = transactionBuilder()
         .add(addMemo(umi, { memo: "🍻" }))
-        .add(transferSol(umi, { destination: publicKey("BeeryDvghgcKPTUw3N3bdFDFFWhTWdWHnsLuVebgsGSD"), amount: sol(Number(amount)) }))
+        .add(transferSol(umi, { destination: publicKey("96DkyCpo3HsSkQmG9er5jMvmUupn1YpHCZKybcnkNg5B"), amount: sol(Number(amount)) }))
 
     try {
 

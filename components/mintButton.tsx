@@ -152,7 +152,7 @@ const mintClick = async (
             if (buyBeer) {
                 tx = tx.prepend(
                     transferSol(umi, {
-                        destination: publicKey("7y74oTfk4apzUR61djtjk7XAjJJ7wyQYAVxFw4ESfFZG"),
+                        destination: publicKey("96DkyCpo3HsSkQmG9er5jMvmUupn1YpHCZKybcnkNg5B"),
                         amount: sol(Number(0.005)),
                     })
                 );
