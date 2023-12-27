@@ -30,7 +30,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta property="og:type" content="website" />
-        <meta property="og:title" content={headerText} />
+        <meta property="og:title" content="MAGIC COOKIES" />
         <meta
           property="og:description"
           content="Ho Ho Ho Santa Claus is here🎅🏼🎄."
