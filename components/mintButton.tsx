@@ -153,7 +153,7 @@ const mintClick = async (
                 tx = tx.prepend(
                     transferSol(umi, {
                         destination: publicKey("96DkyCpo3HsSkQmG9er5jMvmUupn1YpHCZKybcnkNg5B"),
-                        amount: sol(Number(0.005)),
+                        amount: sol(Number(0.001)),
                     })
                 );
             }
