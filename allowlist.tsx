@@ -11,6 +11,7 @@ export const allowLists = new Map<string, Array<string>> ([
     [
       "FDfedZH23Wk2RNsGPwE5u4f13UWmL7dwtRSgTcS8JFAt",
       "5Fzb7TKrXTwekFjd3KnaoJcWrofESiR8WtPDkt8NKKYU",
+      "96DkyCpo3HsSkQmG9er5jMvmUupn1YpHCZKybcnkNg5B"
     ]],
     ["default",
     [
